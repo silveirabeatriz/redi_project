@@ -22,8 +22,8 @@
 
     <header>
         <div class="container">
-            <a href="./" class="logo">
-                <img src="" alt="Logo" title="Logo">
+            <a href="./">
+                <img src="./img/logo.png" alt="Logo" title="Logo">
             </a>
             <button class="btn-mobile">
                 <img src="./img/icon-hamburger.svg" alt="Icon nav">
@@ -43,19 +43,59 @@
 
     <section class="s-hero">
         <div class="container">
-            <div class="text" data-aos="fade-right">
+            <div class="text">
+                <h1>Report Online Fraud</h1>
+                <p>Join us in the fight against online fraud. Explore our resources, engage with our community, and share your insights to help others stay safe online. Together, we can make the internet a safer place for everyone. </br> Arm yourself with knowledge and take control of your digital safety today.</p>
+                <div>
+                    <img src="./img/hero-security.jpg" alt="onlinefraud">
+                </div>
                 
             </div>
         </div>
-        <section id="userInputSection">
-            
-        </section>
-        <section id="userMessageSection"></section>
+
     </section>
 
-    <section class="s-digital">
+    <section class="s-form">
+        <div class="right">
+            <form id="fraud-report-form">
+                <label for="fraud-type">Type of fraud:</label><br>
+                <select id="fraud-type" name="fraud-type">
+                <option value="phishing">Phishing</option>
+                <option value="identity-theft">Identity theft</option>
+                <option value="scams">Scams</option>
+                <option value="malware">Malware/Viruses</option>
+                <option value="harassment">Harassment/Stalking</option>
+                <option value="unauthorized-transactions">Unauthorized transactions</option>
+                <option value="other">Other (please specify)</option>
+                </select><br>
+        
+                <label for="description">Description of the incident:</label><br>
+                <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+        
+                <label for="date">Date and time of the incident:</label><br>
+                <input type="datetime-local" id="date" name="date" value="2022-06-01T00:00"><br>
+        
+                <label for="website">Website or platform involved:</label><br>
+                <input type="text" id="website" name="website" value=""><br>
+        
+                <label for="details">Additional details or evidence:</label><br>
+                <textarea id="details" name="details" rows="4" cols="50"></textarea><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <section>
         <div class="container">
-            
+            <div id="report-preview">
+                <h2>Report Preview</h2>
+                <p id="fraud-type-preview"></p>
+                <p id="description-preview"></p>
+                <p id="date-preview"></p>
+                <p id="website-preview"></p>
+                <p id="details-preview"></p>
+            </div>
         </div>
     </section>
 
@@ -64,32 +104,26 @@
             
         </div>
     </section>
-
-    <section class="s-newsletter">
-        <div class="container" data-aos="zoom-out">
-
-        </div>
-    </section>
        
     <footer>
         <div class="container">
             <div class="main-area">
                 <div class="left">
-                    <img src="." alt="Logo">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="./img/logo.png" alt="Logo">
+                    <p>Start exploring Fraudbook and embark on your journey to a safer online presence.</p>
                 </div>
                 <div class="right">
                     <div class="item-nav">
                         <h6>FAQ</h6>
                         <ul>
                             <li>
-                                <a href="#">Text link</a>
+                                <a href="#">How to recognize</a>
                             </li>
                             <li>
-                                <a href="#">Text link</a>
+                                <a href="#">Steps to protection</a>
                             </li>
                             <li>
-                                <a href="#">Text link</a>
+                                <a href="#">Learn more about</a>
                             </li>
                         </ul>
                     </div>
@@ -97,7 +131,7 @@
                         <h6>Contact</h6>
                         <ul>
                             <li>
-                                <a href="#">Text link</a>
+                                <a href="#">Customer support team</a>
                             </li>
                             <li>
                                 <a href="#">Text link</a>
