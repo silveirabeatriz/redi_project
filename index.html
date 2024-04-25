@@ -56,33 +56,35 @@
     </section>
 
     <section class="s-form">
-        <div class="right">
-            <form id="fraud-report-form">
-                <label for="fraud-type">Type of fraud:</label><br>
-                <select id="fraud-type" name="fraud-type">
-                <option value="phishing">Phishing</option>
-                <option value="identity-theft">Identity theft</option>
-                <option value="scams">Scams</option>
-                <option value="malware">Malware/Viruses</option>
-                <option value="harassment">Harassment/Stalking</option>
-                <option value="unauthorized-transactions">Unauthorized transactions</option>
-                <option value="other">Other (please specify)</option>
-                </select><br>
-        
-                <label for="description">Description of the incident:</label><br>
-                <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
-        
-                <label for="date">Date and time of the incident:</label><br>
-                <input type="datetime-local" id="date" name="date" value="2022-06-01T00:00"><br>
-        
-                <label for="website">Website or platform involved:</label><br>
-                <input type="text" id="website" name="website" value=""><br>
-        
-                <label for="details">Additional details or evidence:</label><br>
-                <textarea id="details" name="details" rows="4" cols="50"></textarea><br>
-        
-                <input type="submit" value="Submit">
-            </form>
+        <div class="container">
+            <div class="fill">
+                <form id="fraud-report-form">
+                    <label for="fraud-type">Type of fraud:</label><br>
+                    <select id="fraud-type" name="fraud-type">
+                    <option value="phishing">Phishing</option>
+                    <option value="identity-theft">Identity theft</option>
+                    <option value="scams">Scams</option>
+                    <option value="malware">Malware/Viruses</option>
+                    <option value="harassment">Harassment/Stalking</option>
+                    <option value="unauthorized-transactions">Unauthorized transactions</option>
+                    <option value="other">Other (please specify)</option>
+                    </select><br>
+            
+                    <label for="description">Description of the incident:</label><br>
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+            
+                    <label for="date">Date and time of the incident:</label><br>
+                    <input type="datetime-local" id="date" name="date" value="2022-06-01T00:00"><br>
+            
+                    <label for="website">Website or platform involved:</label><br>
+                    <input type="text" id="website" name="website" value=""><br>
+            
+                    <label for="details">Additional details or evidence:</label><br>
+                    <textarea id="details" name="details" rows="4" cols="50"></textarea><br>
+            
+                    <input type="submit" class="btn-primary" value="Submit">
+                </form>
+            </div>
         </div>
     </section>
 

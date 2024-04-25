@@ -86,8 +86,47 @@ header nav ul li a:hover {
 
 .s-form {
   background-color: var(--blue-10);
+  margin: 2rem 0;
+  padding: 5rem;
 }
 
+.s-form .container .fill {
+  border: 1px solid #ffffff;
+  padding: 2rem;
+}
+
+.s-form label {
+  display: block;
+  font-size: 20px;
+
+}
+
+.s-form select, .s-form input[type="text"],.s-form input[type="datetime-local"],.s-form textarea {
+      display: block;
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid var(--gray-700);
+      border-radius: 0.4rem;
+      font-size: 15px;
+      line-height: 1.5;
+}
+
+.s-form textarea {
+  resize: vertical;
+}
+
+.s-form input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: auto;
+  background-color: var(--blue-20);
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 footer {
   padding: 4.8rem 0;
