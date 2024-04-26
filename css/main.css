@@ -48,41 +48,28 @@ header nav ul li a:hover {
   width: 100%;
   padding-top: 5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-bottom: 5rem;
 }
 
 .s-hero .container{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} 
-
-.s-hero .container .text{
-  text-align: center;
-} 
-
-.s-hero .container p{
-  max-width: 80%;
-  padding-top: 1rem;
-  margin: auto;
-} 
-
-.s-hero .container img {
-  width: 60%;
-  height: auto;
-  padding-top: 3rem;
-  margin: auto;
 }
 
-.s-hero .container .first p {
-  width: 100%;
-  max-width: 40rem;
-  height: auto;
-  padding-top: 1rem;
+.s-hero .left {
+  max-width: 50%;
 }
+
+.s-hero .right {
+  max-width: 50%;
+}
+
+.s-hero .container .right .search-bar input{
+  background-color: transparent;
+
+
+}
+
+
 
 .s-form {
   background-color: var(--blue-10);
@@ -124,7 +111,6 @@ header nav ul li a:hover {
   padding: 0.5rem;
   color: white;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
 
