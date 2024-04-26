@@ -63,11 +63,31 @@ header nav ul li a:hover {
   max-width: 50%;
 }
 
-.s-hero .container .right .search-bar input{
-  background-color: transparent;
-
-
+.s-hero .left h5{
+  margin-top: 2em;
 }
+
+.s-hero .search-bar {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 40rem;
+  background-color: var(--blue-20);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.s-hero .search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 2.4rem 2rem;
+  font-size: 2rem;
+  color: #cac7ff;
+}
+
 
 
 
