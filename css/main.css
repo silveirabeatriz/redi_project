@@ -60,35 +60,43 @@ header nav ul li a:hover {
 }
 
 .s-hero .right {
-  max-width: 50%;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+}
+
+.s-hero .left h1{
+  width: 100%;
+  max-width: 600px;
 }
 
 .s-hero .left h5{
-  margin-top: 2em;
+  width: 100%;
+  max-width: 50rem;
+  margin-top: 1em;
 }
 
 .s-hero .search-bar {
   margin-top: 2rem;
   width: 100%;
-  max-width: 40rem;
-  background-color: var(--blue-20);
+  max-width: 50rem;
+  background-color: var(--gray-200);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-radius: 60px;
-  padding: 10px 20px;
 }
 
 .s-hero .search-bar input {
   background: transparent;
+  width: 90%;
   flex: 1;
   border: 0;
   outline: none;
-  padding: 2.4rem 2rem;
+  padding: 2.4rem 19rem 2.4rem 3rem;
   font-size: 2rem;
-  color: #cac7ff;
+  color: var(--blue-20);
 }
-
-
 
 
 .s-form {
