@@ -77,7 +77,7 @@ header nav ul li a:hover {
 }
 
 .s-hero .search-bar {
-  margin-top: 2rem;
+  margin-top: 5rem;
   width: 100%;
   max-width: 50rem;
   background-color: var(--gray-200);
@@ -262,15 +262,30 @@ footer .copy strong {
 /* Até Celulares */
 @media(max-width: 560px) {
   header {
-    height: 7.2rem;
+    height: 8rem;
   }
   header .logo {
     max-width: 16rem;
   }
   .s-hero {
-    padding-top: 8.8rem;
+    padding-top: 4rem;
   }
 
+  .s-hero .container {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .s-hero .left h1 {
+    font-size: 4.5rem;
+  }
+
+  .s-hero .left {
+    width: 100%;
+    max-width: 600px;
+  }
 
   footer .main-area .right {
     flex-direction: column;
