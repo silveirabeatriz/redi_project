@@ -2,6 +2,8 @@
 
 This is my final project for the Web Development Fundamentals Course.
 
+https://silveirabeatriz.github.io/redi_project/
+
 ## Table of contents
 
 - [Overview](#overview)
