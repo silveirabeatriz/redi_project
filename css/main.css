@@ -116,7 +116,7 @@ header nav ul li a:hover {
 
 }
 
-.s-form select, .s-form input[type="text"],.s-form input[type="datetime-local"],.s-form textarea {
+.s-form select, .s-form input[type="text"],.s-form input[type="date"],.s-form textarea {
       display: block;
       width: 100%;
       padding: 0.5rem;
@@ -127,6 +127,9 @@ header nav ul li a:hover {
       line-height: 1.5;
 }
 
+.s-form .fill {
+  margin-top: 2rem;
+}
 .s-form textarea {
   resize: vertical;
 }
@@ -208,6 +211,8 @@ footer .main-area .right .item-nav ul li a:hover {
 footer .copy {
   color: var(--gray-600);
   letter-spacing: -0.48px;
+  display: flex;
+  justify-content: center;
 }
 
 footer .copy strong {
