@@ -78,16 +78,13 @@
                     </select><br>
             
                     <label for="description">Description of the incident:</label><br>
-                    <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+                    <textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
             
                     <label for="date">Date of the incident:</label><br>
-                    <input type="date" id="date" name="date" value="2022-06-01T00:00"><br>
+                    <input type="date" id="date" name="date" value="2022-06-01T00:00"required><br>
             
                     <label for="website">Website or platform involved:</label><br>
-                    <input type="text" id="website" name="website" value=""><br>
-            
-                    <label for="details">Additional details or evidence:</label><br>
-                    <textarea id="details" name="details" rows="4" cols="50"></textarea><br>
+                    <input type="text" id="website" name="website" value=""required><br>
             
                     <input type="submit" class="btn-primary" value="Submit">
                 </form>
@@ -98,7 +95,7 @@
     <section>
         <div class="container">
             <div id="report-preview">
-                <h2>Report Preview</h2>
+                <h2 hidden id="report-title">Report Preview</h2>
                 <p id="fraud-type-preview"></p>
                 <p id="description-preview"></p>
                 <p id="date-preview"></p>
