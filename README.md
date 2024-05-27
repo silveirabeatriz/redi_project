@@ -19,8 +19,9 @@ This is my final project for the Web Development Fundamentals Course.
 
 ### Links
 
-- Solution URL: https://silveirabeatriz.github.io/redi_project/
+- Solution URL: https://fraudbook.netlify.app/
 
+  
 ## My process
 
 ### Built with
