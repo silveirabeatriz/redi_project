@@ -223,7 +223,7 @@ footer .copy strong {
   font-weight: 600;
 }
 
-/* Até monitores pequenos */
+/* Small screens */
 @media(max-width: 1200px) {
 
   footer .main-area .right {
@@ -231,7 +231,7 @@ footer .copy strong {
   }
 }
 
-/* Até Tablet */
+/* Tablet */
 @media(max-width: 991px) {
   .s-hero::after {
     height: 13rem;
@@ -265,10 +265,21 @@ footer .copy strong {
     padding-top: 6rem;
   }
 
+  .s-hero .left {
+    max-width: 100%;
+
+  }
+
+  .s-hero .container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 
 }
 
-/* Até Celulares */
+/* Handy */
 @media(max-width: 560px) {
   header {
     height: 8rem;
@@ -282,7 +293,6 @@ footer .copy strong {
 
   .s-hero .container {
     width: 100%;
-    max-width: 700px;
     display: flex;
     flex-direction: column;
   }
@@ -295,6 +305,16 @@ footer .copy strong {
     width: 100%;
     max-width: 600px;
   }
+  
+  .s-form input[type="submit"] {
+    width: auto;
+    padding: 20px;
+  }
+
+  .s-form .container .fill {
+    width: auto;
+  }
+
 
   footer .main-area .right {
     flex-direction: column;
@@ -325,4 +345,27 @@ footer .copy strong {
     text-align: center;
     font-size: 1.4rem;
   }
+}
+
+.report-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5rem;
+}
+
+#report-preview, #agent {
+  margin: 24px;
+}
+
+#agent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#agent-picture {
+  border-radius: 50%;
+  margin-bottom: 16px;
 }
