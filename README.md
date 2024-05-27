@@ -19,7 +19,7 @@ This is my final project for the Web Development Fundamentals Course.
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://silveirabeatriz.github.io/redi_project/
 
 ## My process
 
