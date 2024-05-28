@@ -2,8 +2,6 @@
 
 This is my final project for the Web Development Fundamentals Course.
 
-https://silveirabeatriz.github.io/redi_project/
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -21,8 +19,9 @@ https://silveirabeatriz.github.io/redi_project/
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://fraudbook.netlify.app/
 
+  
 ## My process
 
 ### Built with
