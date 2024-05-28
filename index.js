@@ -21,7 +21,7 @@ fraudReportForm.addEventListener("submit", (event) => {
       const date = document.getElementById("date").value;
       const website = document.getElementById("website").value;
 
-      fraudTypePreview.textContent = `Type of fraud: ${fraudType}`;
+      fraudTypePreview.textContent = `Type of fraud:${fraudType}`;
       descriptionPreview.textContent = `Description of the incident: ${description}`;
       datePreview.textContent = `Date and time of the incident: ${date}`;
       websitePreview.textContent = `Website or platform involved: ${website}`;

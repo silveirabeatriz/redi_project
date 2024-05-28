@@ -87,6 +87,10 @@ header nav ul li a:hover {
   justify-content: space-between;
   border-radius: 60px;
 }
+/* description-preview
+date-preview
+website-preview
+details-preview */
 
 .s-hero .search-bar input {
   background: transparent;
@@ -145,6 +149,14 @@ header nav ul li a:hover {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+#report-preview h2 {
+  margin-bottom: 3rem;
+}
+
+#agent h4 {
+  margin-bottom: 3rem;
 }
 
 footer {
@@ -277,6 +289,18 @@ footer .copy strong {
     flex-direction: column;
   }
 
+  .report-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #report-preview h2 {
+    margin-bottom: 3rem;
+  }
+
+  #agent h4 {
+    margin-bottom: 3rem;
+  }
 }
 
 /* Handy */
