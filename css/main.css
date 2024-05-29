@@ -87,10 +87,6 @@ header nav ul li a:hover {
   justify-content: space-between;
   border-radius: 60px;
 }
-/* description-preview
-date-preview
-website-preview
-details-preview */
 
 .s-hero .search-bar input {
   background: transparent;
@@ -150,6 +146,11 @@ details-preview */
   border: none;
   cursor: pointer;
 }
+
+.s-form input[type="submit"]:hover {
+  transform: scale(1.05);
+}
+
 
 #report-preview h2 {
   margin-bottom: 3rem;
