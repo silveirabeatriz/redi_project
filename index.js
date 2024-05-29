@@ -26,6 +26,12 @@ fraudReportForm.addEventListener("submit", (event) => {
       datePreview.textContent = `Date and time of the incident: ${date}`;
       websitePreview.textContent = `Website or platform involved: ${website}`;
 
+      fraudTypePreview.innerHTML = `<strong>Type of fraud:</strong> ${fraudType}`;
+      descriptionPreview.innerHTML = `<strong>Description of the incident:</strong> ${description}`;
+      datePreview.innerHTML = `<strong>Description of the incident:</strong> ${date}`;
+      websitePreview.innerHTML = `<strong>Website or platform involved:</strong> ${website}`;
+
+
       const agentName = document.getElementById("agent-name");
       const agentEmail = document.getElementById("agent-email");
       const agentPicture = document.getElementById("agent-picture");
@@ -35,6 +41,7 @@ fraudReportForm.addEventListener("submit", (event) => {
 
       alert("Report submitted successfully");
 
+      
       fraudReportForm.reset();
     });
 });
