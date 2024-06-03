@@ -15,7 +15,7 @@ This is my final project for the Web Development Fundamentals Course.
 
 ### Screenshot
 
-<img src="">
+<img src="./fraudbook.netlify.app_(Resolution - 1150) (1)">
 
 ### Links
 
