@@ -30,6 +30,11 @@ This is my final project for the Web Development Fundamentals Course.
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Functions
+- Arrays
+- Objects
+- DOM Manipulations
+- Fetch API - https://randomuser.me/api/
 
 ### Author
 
