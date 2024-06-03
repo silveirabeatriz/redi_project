@@ -1,3 +1,11 @@
+const btnMobile = document.querySelector('.btn-mobile');
+const navMenu = document.querySelector('.nav-menu');
+
+btnMobile.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+})
+
+
 const fraudReportForm = document.getElementById("fraud-report-form");
 const fraudTypePreview = document.getElementById("fraud-type-preview");
 const descriptionPreview = document.getElementById("description-preview");
