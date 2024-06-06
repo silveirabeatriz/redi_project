@@ -4,11 +4,8 @@ const logoMobile = document.querySelector('.logoMobile');
 
 btnMobile.addEventListener("click", () => {
   navMenu.classList.toggle("show");
-})
-
-btnMobile.addEventListener('click', () => {
   logoMobile.classList.toggle("hide");
-});
+})
 
 const fraudReportForm = document.getElementById("fraud-report-form");
 const fraudTypePreview = document.getElementById("fraud-type-preview");
