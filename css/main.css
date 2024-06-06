@@ -283,6 +283,10 @@ footer .copy strong {
     align-items: center;
   }
 
+  .logoMobile.hide {
+    display: none;
+  }
+
   form button {
     display: none;
   }
